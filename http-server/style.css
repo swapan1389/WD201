@@ -1,0 +1,80 @@
+sup {
+  color: rgb(183, 255, 0);
+}
+
+.rowInput {
+  padding: 20px 0px 0px 0px; /* top right bottom left */
+}
+
+.inputStyle {
+  margin-top: 10px;
+  height: 2rem;
+  width: 100%;
+  border: 1px solid rgb(55, 243, 8);
+  border-radius: 10px;
+  box-shadow: 5px 2px 5px #07b6eb;
+  background-color: #f60a0a;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input:invalid:focus {
+  border: 1px solid rgb(19, 237, 4);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(24, 7, 251);
+}
+
+.divForm {
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+  background-color: rgb(237, 90, 16);
+  border-radius: 20px;
+  width: 35rem;
+  height: 35rem;
+  box-shadow: 5px 10px 5px #519524;
+}
+
+body {
+  background-color: #f96216;
+}
+
+#submit {
+  background-color: green;
+  color: rgb(144, 16, 30);
+  width: 100px;
+  height: 40px;
+  border: 0px solid transparent;
+  border-radius: 10px;
+}
+
+#toggle-check {
+  height: 15px;
+  width: 15px;
+}
+
+.table-div {
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+  width: 35rem;
+  height: auto;
+  min-height: 120px;
+  background-color: rgb(192, 224, 8);
+  border-radius: 25px;
+  box-shadow: 5px 10px 5px #cace08;
+  margin: auto;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+#table {
+  width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+}
